@@ -17,8 +17,22 @@ export const projects = [
       title: "JourneyUp",
       description: "JourneyUp is a modern, cross-platform mobile application built with React Native and Expo, designed to help users track and share their e-bike and e-scooter rides. [Still a work in progress]",
       tech: ["JavaScript", "TypeScript", "GCP"],
-      github: "https://github.com/breyna-arch/Zoom_Meeting_Notes_Project",
+      github: "https://github.com/breyna-arch/journey-up",
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80"
+    },
+    {
+        title: "Multi Agent System Monitoring",
+        description: "A multi-agent system for monitoring system resources, detecting anomalies, and generating AI-powered reports.",
+        tech: ["Python", "HTML", "OpenAI"],
+        github: "https://github.com/breyna-arch/Multi-Agent-System-Monitoring",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80"
+    },
+    {
+        title: "SOL Church App",
+        description: "This app is a cross-platform mobile application for Sacramento's Spring Of Life Church. This is my senior capstone project at Sacramento State, where I am working with 6 teammates to design and build this app. [Still a work in progress]",
+        tech: ["TypeScript", "JavaScript", "Docker", "Jest", "Supabase"],
+        github: "https://github.com/Senior-Project-Team-Buildabyte/SOL-Church-App",
+        image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80"
     }
   ];
   
