@@ -1,3 +1,5 @@
+import project180Image from "../assets/180Picture.png";
+
 export const projects = [
     {
       title: "Zoom Meeting Notes Bot",
@@ -33,6 +35,13 @@ export const projects = [
         tech: ["TypeScript", "JavaScript", "Docker", "Jest", "Supabase"],
         github: "https://github.com/Senior-Project-Team-Buildabyte/SOL-Church-App",
         image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80"
+    },
+    {
+      title: "CSC180 Final Project",
+      description: "This project is a full-stack web app built for the CSC180 Final Project at Sacramento State. It uses a Python (Flask) backend and a React (Vite) frontend to generate and display AI-created flowcharts. The backend integrates with Google Docs and OpenAI APIs to produce dynamic Mermaid diagrams from user input.",
+      tech: ["TypeScript", "JavaScript", "Python", "Flash", "asyncio", "Google API", "OPENAI", "mermaid.js"],
+      github: "https://github.com/breyna-arch/CSC180Final",
+      image: project180Image
     }
   ];
   

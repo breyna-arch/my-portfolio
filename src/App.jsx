@@ -5,6 +5,7 @@ import ThemeToggle from "./components/ThemeToggle";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
+import FoodBlog from "./pages/FoodBlog";
 
 function AppContent() {
   return (
@@ -17,6 +18,7 @@ function AppContent() {
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
+        <Route path="/foodblog" element={<FoodBlog />} />
       </Routes>
     </Router>
   );
