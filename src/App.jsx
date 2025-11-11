@@ -9,12 +9,11 @@ import FoodBlog from "./pages/FoodBlog";
 
 function AppContent() {
   return (
-    <Router>
+    <Router basename={import.meta.env.DEV ? "/" : "/my-portfolio/"}>
       <Navbar />
       <ThemeToggle className="theme-toggle-container" />
       <Routes>
         <Route path="/" element={<Navigate to="/projects" replace />} />
-        <Route path="/my-portfolio" element={<Navigate to="/projects" replace />} />
         <Route path="/home" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
