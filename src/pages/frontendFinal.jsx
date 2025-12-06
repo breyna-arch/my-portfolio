@@ -10,7 +10,7 @@ export default function App() {
     navigate("/loadingPage");
 
     try {
-      const res = await fetch("http://35.197.9.72:5000/api/respond", {
+      const res = await fetch("https://cached-positions-wisconsin-jacket.trycloudflare.com/api/respond", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ input: text })
