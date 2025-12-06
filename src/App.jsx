@@ -6,6 +6,10 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import About from "./pages/About";
 import FoodBlog from "./pages/FoodBlog";
+import Frontend from "./pages/frontendFinal"; 
+import Loading from "./pages/loadingPage";
+import MermaidDiagram from "./pages/flowchartPage";
+
 
 function AppContent() {
   return (
@@ -19,6 +23,11 @@ function AppContent() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
         <Route path="/foodblog" element={<FoodBlog />} />
+
+        {/* Internal demo route */}
+        <Route path="/frontendFinal" element={<Frontend />} />
+        <Route path="/loadingPage" element={<Loading />} />
+        <Route path="/flowchartPage" element={<MermaidDiagram />} />
       </Routes>
     </Router>
   );

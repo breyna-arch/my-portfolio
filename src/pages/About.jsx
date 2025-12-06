@@ -15,9 +15,9 @@ export default function About() {
           consistency, endurance, and growth — both on the trail and in my
           technical career.
         </p>
+        <Link to="/foodblog">Visit my Food Blog</Link>
       </div>
 
-      <Link to="/foodblog">Visit my Food Blog</Link>
     </>
   );
 }

@@ -127,6 +127,29 @@ body {
 }
 
 .home, .about {
+  text-align: center;
+  margin-top: 1.5rem;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.home, .about, .food-blog {
+  text-align: center;         
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 1.5rem auto 0 auto;  
+  color: var(--text-color);
+  transition: color 0.3s ease;
+}
+
+.home, .frontendFinal, .projects-title {
+  text-align: center;         
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 1.5rem auto 0 auto;  
   color: var(--text-color);
   transition: color 0.3s ease;
 }

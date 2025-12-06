@@ -1,3 +1,4 @@
+import { VscNoNewline } from "react-icons/vsc";
 import project180Image from "../assets/180Picture.png";
 
 export const projects = [
@@ -41,6 +42,7 @@ export const projects = [
       description: "This project is a full-stack web app built for the CSC180 Final Project at Sacramento State. It uses a Python (Flask) backend and a React (Vite) frontend to generate and display AI-created flowcharts. The backend integrates with Google Docs and OpenAI APIs to produce dynamic Mermaid diagrams from user input.",
       tech: ["TypeScript", "JavaScript", "Python", "Flash", "asyncio", "Google API", "OPENAI", "mermaid.js"],
       github: "https://github.com/breyna-arch/CSC180Final",
+      demo: "/frontendFinal",
       image: project180Image
     }
   ];

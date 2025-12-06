@@ -4,5 +4,6 @@ export default function FoodBlog() {
       <h1>Welcome to my Food Blog!</h1>
       <p>Here I share recipes, food adventures, and culinary experiments!</p>
     </div>
+    
   );
 }
